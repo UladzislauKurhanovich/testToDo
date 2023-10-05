@@ -1,8 +1,9 @@
 import React from 'react';
 import { FC } from 'react'
+import { TodoList } from './components/TodoList';
 
 const App: FC = () => (
-    <p>Todo</p>
+    <TodoList/>
 );
 
 export default App
