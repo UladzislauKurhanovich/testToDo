@@ -1,9 +1,9 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { AddTodo } from './AddTodo';
-import { addTodo, removeTodo, editTodo } from '../redux/slice';
-import { TodoItem } from './types';
-import { Todo } from './Todo';
-import { RootState } from '../redux/store';
+import { AddTodo } from '../AddToDo/AddTodo';
+import { addTodo, removeTodo, editTodo } from '../../redux/slice';
+import { TodoItem } from '../types';
+import { Todo } from '../Todo/Todo';
+import { RootState } from '../../redux/store';
 
 export const TodoList: React.FC = () => {
     const dispatch = useDispatch();

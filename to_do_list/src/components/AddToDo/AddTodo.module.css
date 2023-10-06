@@ -1,0 +1,11 @@
+.todosInputBlock {
+    width: 30%;
+    display: flex;
+    flex-diraction: column;
+    margin: 10px;
+    justify-content: center;
+}
+
+.todosInput {
+    margin-right: 10px;
+}

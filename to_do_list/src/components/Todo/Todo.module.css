@@ -1,0 +1,27 @@
+.todosCard {
+    max-width: 200px;
+    display: flex;
+    flex-diraction: row;
+    margin: 10px;
+}
+
+.todosInput {
+    margin-right: 10px;
+}
+
+.edit:hover {
+    color: #ffba00;
+}
+
+.buttons {
+    margin-left: 10px
+}
+
+.edit {
+    margin-bottom: 10px
+}
+
+.save {
+    margin-bottom: 10px
+}
+
